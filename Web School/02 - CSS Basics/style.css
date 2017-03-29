@@ -1,0 +1,17 @@
+#mainContainer {
+    width: 40%;
+}
+
+#articleFeatured {
+    background-color: #FBC02D;
+}
+
+.articleHot {
+    background-color: #ef5350;
+    color: #FFF;
+}
+
+.articleHot p {
+    color: lightblue;
+}
+
