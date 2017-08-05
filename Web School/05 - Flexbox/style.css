@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0.1em;
+}
+
+main {
+    flex: 4;
+    background-color: tomato;
+}
+
+aside {
+    flex: 1;
+    background-color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navMain {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}
